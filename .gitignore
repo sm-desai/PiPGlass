@@ -1,0 +1,24 @@
+# Build output
+build/
+
+# macOS
+.DS_Store
+
+# Signing material must never be committed (build.sh keeps it outside the repo anyway)
+*.p12
+*.pem
+*.key
+*.cer
+*.keychain
+*.keychain-db
+
+# Debug output and local notes
+*.log
+frame.png
+screen.png
+GITHUB_UPLOAD_STEPS.md
+
+# Editors / tools
+.vscode/
+.idea/
+.claude/
